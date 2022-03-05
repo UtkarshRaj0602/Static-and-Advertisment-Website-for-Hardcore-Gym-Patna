@@ -1,0 +1,1007 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:bold:wgth@100;200;300);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2.6rem;
+    background: #000000;
+    z-index: 100000;
+}
+.nav h2{
+    color: #ffffff;
+    font-size: 35px;
+}
+#item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#item li{
+    list-style: none;
+    padding-right: 30px;
+}
+#item li a{
+    text-decoration: none;
+    font-size: 18.5px;
+    color: #ffffff;
+}
+#item li a:hover{
+    color: orangered;
+    cursor: pointer;
+}
+#item .icons a{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 30px;
+    font-weight: bolder;
+}
+#item .icons a:hover{
+    color: orangered;
+    cursor: pointer;
+}
+#bar{
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    display: none;
+}
+.back{
+    background-image: url(BG8.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.back .overlay{
+    background: #1a1a1a;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+.mid-punchtag{
+    position: absolute;
+    top:60%;
+    left:52%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.mid-punchtag p{
+    color: #000000;
+    font-size: 25px;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    padding-right: 6rem;
+}
+.mid-punchtag h2{
+    color: #ffffff;
+    font-size: 55px;
+    padding-right: 6rem;
+}
+.about_us{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 15rem;
+    background-color: #171819;
+    padding-bottom: -4rem;
+}
+.about_us h3,h4,h5{
+    color: #ffffff;
+}
+.about_us .about_us_part1{
+    width: 65%;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.about_us .about_us_part1 h3{
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+}
+.about_us .about_us_part1 p{
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+    color: #666262;
+    padding-right: 1.8rem;
+}
+.about_us .about_us_part2{
+    width: 35%;
+    border-left:6px solid #666262;
+    padding-left: 2rem;
+}
+.about_us .about_us_part2 h4{
+    font-size: 2.0rem;
+    font-weight: 400;
+    padding-bottom: 1.5rem;
+    padding-top: -8rem;
+    margin-top: -2.5rem;
+}
+.about_us .about_us_part2 h5{
+    font-size: 1.4rem;
+}
+.about_us .about_us_part2 p{
+    font-size: 1.2rem;
+    padding-bottom: 0.8rem;
+    color: #666262;
+}
+.Our_Branches{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12rem 17rem;
+    background-color: #bfbfbf;
+}
+.Our_Branches h2,p{
+    color: #000000;
+}
+.Our_Branches h2{
+    font-size: 3.5rem;
+    font-weight: 400;
+    padding-bottom: 8rem;
+    margin-top: -10rem;
+    padding-right: 7.8rem;
+    text-align: center;
+}
+.Our_Branches p{
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin-top: -5.5rem;
+    padding-right: 35.5rem;
+}
+.Our_Branches .map{
+    padding-left: 30rem;
+    margin-top: -12rem;
+}
+.Our_Branches .Our_Branches_part2{
+    margin-top: 3rem;
+    border-top:6px solid #000000;
+    margin-bottom: -10rem;
+}
+.Our_Branches .Our_Branches_part2 p{
+    padding-right: 34rem;
+    font-size: 1.2rem;
+    padding-bottom: 0rem;
+    margin-top: 2.5rem;
+}
+.Our_Branches .Our_Branches_part2 .map2{
+    position: relative;
+    padding-left: 30rem;
+    margin-top: -9rem;
+    padding-bottom:3rem;
+}
+.contact_us{
+    width: 100%;
+    padding: 7.5rem 17rem;
+    background-color: #171819;
+}
+.contact_us h2{
+    font-size: 2rem;
+    color: #ffffff;
+    padding-bottom: 10px;
+    width: 100%;
+    padding-left: 18rem;
+}
+.contact_us .form .submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 5rem;
+}
+.contact_us .form .submit input, .contact_us .form .submit textarea{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #95a5a6;
+}
+.contact_us .form .submit a{
+    width: 80%;
+    padding: 15px 0;
+    text-decoration: none;
+    background: #666262;
+    color: #000000;
+    text-align: center;
+}
+.contact_us .form .submit a:hover{
+    background: #000000;
+    color: orangered;
+}
+.footer{
+    width: 100%;
+    border-top:6px solid #bfbfbf;
+    padding: 3rem;
+    background-color: #000000;
+}
+.footer p{
+    color: #ffffff;
+    padding-left: 33.5rem;
+}
+.footer_2 p{
+    padding-left: 35.5rem;
+}
+.footer_3 p{
+    padding-left: 31.6rem;
+}
+.footer_4 p{
+    padding-left: 32.8rem;
+}
+.footer_4 a{
+    text-decoration: none;
+}
+
+/*-- media query --*/
+
+@media screen and (max-width: 1042px){
+    .nav{
+        padding: 2.6rem;
+    }
+    .nav h2{
+        font-size: 30px;
+    }
+    #item li{
+        padding-right: 20px;
+    }
+    #item li a{
+        font-size: 16px;
+    }
+    #item .icons a{
+        padding-right: 18px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .nav{
+        padding: 2rem;
+    }
+    .nav h2{
+        font-size: 28px;
+        padding-left: 2.5rem;
+    }
+    .back{
+        background-position: center;
+    }
+    #item{
+        flex-direction: column;
+        text-align: center;
+        width: 300px;
+        height: 80vh;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        background: #000000;
+        z-index: 100000;
+        opacity: 0.9;
+        margin-top: 4.2rem;
+        transition: 0.5s;
+    }
+    #item li{
+        padding-right: 0px;
+        padding: 4px 0;
+    }
+    #item li a{
+        font-size: 1.2rem;
+    }
+    #item .icons{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #item .icons a{
+        padding: 0 15px 0 15px;
+    }
+    #bar{
+        display: initial;
+        cursor: pointer;
+        font-size: 2rem;
+        padding-right: 1rem;
+    }
+    .mid-punchtag p{
+        font-size: 1.4rem;
+        margin-bottom: 0.25rem;
+        padding-right: 0rem;
+    }
+    .mid-punchtag h2{
+        color: #ffffff;
+        font-size: 2.5rem;
+        padding-right: 0rem;
+    }
+    .about_us{
+        padding: 3rem 6rem;
+        padding-bottom: -0rem;
+    }
+    .about_us h3,h4,h5{
+        color: #ffffff;
+    }
+    .about_us .about_us_part1 h3{
+        font-size: 2.1rem;
+        padding-bottom: 1rem;
+        margin-top: 0rem;
+    }
+    .about_us .about_us_part1 p{
+        font-size: 1.1rem;
+        padding-bottom: 1rem;
+    }
+    .about_us .about_us_part1 a{
+        width: 30.5%;
+        padding: 0rem 0rem; 
+    }
+    .about_us .about_us_part2{
+        width: 35%;
+        border-left:6px solid #666262;
+        padding-left: 2rem;
+    }
+    .about_us .about_us_part2 h4{
+        font-size: 1.6rem;
+        margin-top: -8rem;
+    }
+    .about_us .about_us_part2 h5{
+        font-size: 1.25rem;
+        margin-top: -1rem;
+    }
+    .about_us .about_us_part2 p{
+        font-size: 1.1rem;
+        padding-bottom: 0.8rem;
+    }
+    .Our_Branches{
+        padding: 12rem 17rem;
+    }
+    .Our_Branches h2{
+        font-size: 2.4rem;
+        padding-right: 0.5rem;
+        margin-bottom: -2rem;
+    }
+    .Our_Branches p{
+        padding-right: 1rem;
+        font-size: 1.1rem;
+        padding-bottom: 0rem;
+        margin-top: -5rem;
+        text-align: center;
+    }
+    .Our_Branches .map{
+        padding-left: 0rem;
+        margin-top: 2rem;
+        align-items: left;
+        position: relative;
+    }
+    .Our_Branches .Our_Branches_part2 p{
+        padding-right: 0.5rem;
+        font-size: 1.1rem;
+        padding-bottom: 0rem;
+        margin-top: 2.5rem;
+        text-align: center;
+    }
+    .Our_Branches .Our_Branches_part2 .map2{
+        position: relative;
+        padding-left: 0rem;
+        margin-top: 2rem;
+        padding-bottom:2rem;
+    }
+    .contact_us{
+        padding: 7.5rem 17rem;
+    }
+    .contact_us h2{
+        padding-bottom: 10px;
+        padding-left: 4.5rem;
+    }
+    .footer p{
+        padding-left: 20rem;
+    }
+    .footer_2 p{
+        padding-left: 22rem;
+    }
+    .footer_3 p{
+        padding-left: 18rem;
+    }
+    .footer_4 p{
+        padding-left: 19.3rem;
+    }
+    .footer_4 a{
+        text-decoration: none;
+    }   
+}
+
+@media screen and (max-width: 768px){
+    .nav{
+        padding: 2rem;
+    }
+    .nav h2{
+        font-size: 28px;
+        padding-left: 0.5rem;
+    }
+    .back{
+        background-position: center;
+    }
+    #bar{
+        font-size: 2rem;
+    }
+    .mid-punchtag p{
+        font-size: 1.2rem;
+    }
+    .mid-punchtag h2{
+        font-size: 2.3rem;
+    }
+    .about_us{
+        padding: 3rem 6rem;
+    }
+    .about_us .about_us_part1 h3{
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+        margin-top: 0rem;
+    }
+    .about_us .about_us_part1 p{
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+    .about_us .about_us_part2 h4{
+        font-size: 1.3rem;
+        margin-top: -4.5rem;
+    }
+    .about_us .about_us_part2 h5{
+        font-size: 1.1rem;
+        margin-top: 0rem;
+    }
+    .about_us .about_us_part2 p{
+        font-size: 1.1rem;
+        padding-bottom: 0.8rem;
+    }
+    .Our_Branches{
+        padding: 12rem 0rem;
+    }
+    .Our_Branches h2{
+        font-size: 1.8rem;
+        padding-left: 0rem;
+        margin-bottom: -2rem;
+    }
+    .Our_Branches p{
+        padding-right: 1rem;
+        font-size: 0.95rem;
+        padding-bottom: 0rem;
+        margin-top: -5rem;
+        text-align: center;
+    }
+    .Our_Branches .Our_Branches_part2 p{
+        padding-right: 0.5rem;
+        font-size:0.95rem;
+    }
+    .contact_us h2{
+        font-size: 1.09rem;
+        padding-bottom: 10px;
+        padding-left: 2rem;
+        margin-top: -2rem;
+        align-items: center; 
+    }
+    .contact_us .form .submit{
+        align-items: center;
+        padding-left: 1rem;
+    }
+    .contact_us .form .submit input, .contact_us .form .submit textarea{
+        width: 150%;
+    }
+    .contact_us .form .submit a{
+        width: 150%;
+    }
+    .footer p{
+        padding-left: 13rem;
+    }
+    .footer_2 p{
+        padding-left: 15rem;
+    }
+    .footer_3 p{
+        padding-left: 11rem;
+    }
+    .footer_4 p{
+        padding-left: 12.25rem;
+    }
+    .footer_4 a{
+        text-decoration: none;
+    }   
+}
+
+@media screen and (max-width: 496px){
+    .nav{
+        padding: 2rem;
+    }
+    .nav h2{
+        font-size: 28px;
+        padding-left: 0rem;
+    }
+    .back{
+        background-position: center;
+    }
+    #bar{
+        font-size: 2rem;
+        padding-right: 0.5rem;
+    }
+    .mid-punchtag p{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .mid-punchtag h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .about_us{
+        padding: 3rem 6rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about_us .about_us_part1{
+        width: 100%;
+        padding-bottom: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .about_us .about_us_part1 h3{
+        font-size: 1.5rem;
+        padding-left: 5.8rem;
+    }
+    .about_us .about_us_part1 p{
+        font-size: 0.8rem;
+        padding-bottom: 1rem;
+        text-align: center;
+        padding-left: 2.5rem;
+    }
+    .about_us .about_us_part2{
+        width: 100%;
+       border-top: 6px solid #666262;
+       border-right: 6px solid #666262;
+       border-bottom: 6px solid #666262;
+    }
+    .about_us .about_us_part2 h4{
+        font-size: 1.3rem;
+        padding-left: 0.2rem;
+    }
+    .about_us .about_us_part2 h5{
+        font-size: 1rem;
+        margin-top: 0rem;
+        text-align: center;
+        padding-right: 2rem;
+    }
+    .about_us .about_us_part2 p{
+        font-size: 0.9rem;
+        padding-bottom: 0.8rem;
+        text-align: center;
+        padding-right: 2rem;
+    }
+    .Our_Branches{
+        padding: 12rem 0rem;
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+    }
+    .Our_Branches h2{
+        font-size: 1.6rem;
+        padding-left: 0.5rem;
+        margin-bottom: -2rem;
+        flex-direction: column;
+    }
+    .Our_Branches p{
+        padding-right: 1rem;
+        font-size:0.95rem;
+        max-width: fit-content;
+    }
+    .Our_Branches .Our_Branches_part2 p{
+        padding-left: 5rem;
+        font-size: 0.95rem;
+    }
+    .contact_us{
+        width: 100%;
+        padding: 6rem 10rem;
+    }
+    .contact_us h2{
+        font-size: 1rem;
+        padding-bottom: 10px;
+        margin-top: -4rem;
+        padding-left: 0rem;
+        text-align: right;
+    }
+    .contact_us .form .submit{
+        align-items: center;
+        padding-left: 1rem;
+    }
+    .contact_us .form .submit input, .contact_us .form .submit textarea{
+        width: 150%;
+    }
+    .contact_us .form .submit a{
+        width: 150%;
+    }
+    .footer p{
+        padding-left: 5rem;
+    }
+    .footer_2 p{
+        padding-left: 7rem;
+    }
+    .footer_3 p{
+        padding-left: 3rem;
+    }
+    .footer_4 p{
+        padding-left: 4.3rem;
+    }
+    .footer_4 a{
+        text-decoration: none;
+    }   
+}
+
+@media screen and (max-width: 425px){
+    .nav{
+        padding: 2rem;
+    }
+    .nav h2{
+        font-size: 28px;
+        padding-left: 0rem;
+    }
+    .back{
+        background-position: center;
+    }
+    #bar{
+        font-size: 2rem;
+        padding-right: 0.5rem;
+    }
+    .mid-punchtag p{
+        font-size: 1rem;
+        padding-right: 1.5rem;
+    }
+    .mid-punchtag h2{
+        font-size: 1.9rem;
+       padding-right: 2.1rem;
+    }
+    .about_us{
+        padding: 3rem 0rem;
+    }
+    .about_us .about_us_part1{
+        width: 100%;
+        padding-bottom: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .about_us .about_us_part1 h3{
+        font-size: 1.5rem;
+        padding-left: 0rem;
+        text-align: center;
+    }
+    .about_us .about_us_part1 p{
+        font-size: 0.8rem;
+        padding-bottom: 1rem;
+        padding-left: 2.5rem;
+        text-align: center;
+    }
+    .about_us .about_us_part2{
+       width: 80%;
+    }
+    .about_us .about_us_part2 h4{
+        font-size: 1.3rem;
+        padding-right: 2rem;
+        text-align: center;
+    }
+    .about_us .about_us_part2 h5{
+        font-size: 1rem;
+        margin-top: 0rem;
+        text-align: center;
+        padding-right: 2rem;
+    }
+    .about_us .about_us_part2 p{
+        font-size: 0.9rem;
+        padding-bottom: 0.8rem;
+        text-align: center;
+        padding-right: 2rem;
+    }
+    .Our_Branches{
+        padding: 12rem 0rem;
+    }
+    .Our_Branches h2{
+        text-align: center;
+    }
+    .Our_Branches p{
+        padding-right: 1rem;
+        font-size:0.95rem;
+        max-width: fit-content;
+        text-align: center;
+    }
+    .Our_Branches .Our_Branches_part2 p{
+        padding-left: 5rem;
+        font-size: 0.95rem;
+        text-align: center;
+    }
+    .contact_us{
+        padding: 6rem 6rem;
+    }
+    .contact_us h2{
+        text-align: center;
+    }
+    .footer p{
+        padding-left: 0rem;
+        text-align: center;
+    }
+    .footer_2 p{
+        padding-left: 0rem;
+        text-align: center;
+    }
+    .footer_3 p{
+        padding-left: 0rem;
+        text-align: center;
+    }
+    .footer_4 p{
+        padding-left: 0rem;
+        text-align: center;
+    }
+    .footer_4 a{
+        text-decoration: none;
+    }   
+}
+
+@media screen and (max-width: 375px){
+    .nav{
+        padding: 2rem;
+    }
+    .nav h2{
+        font-size: 26px;
+        padding-left: 0rem;
+    }
+    .back{
+        width: 110%;    
+        height: 100vh;
+        background-size: cover;
+    }
+    .back .overlay{
+        background: #1a1a1a;
+        width: 100%;
+        height: 100%;
+        opacity: 0.8;
+    }
+    #bar{
+        font-size: 2rem;
+        padding-right: 2.2rem;
+    }
+    .mid-punchtag p{
+        font-size: 1.1rem;
+        padding-right: 0rem;
+    }
+    .mid-punchtag h2{
+        font-size: 1.9rem;
+       padding-right: 0rem;
+    }
+    .about_us{
+        padding: 3rem 0rem;
+        width: 105%;
+    }
+    .about_us .about_us_part1{
+        width: 100%;
+        padding-bottom: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .about_us .about_us_part1 h3{
+        font-size: 1.5rem;
+        padding-left: 0rem;
+        text-align: center;
+    }
+    .about_us .about_us_part1 p{
+        font-size: 0.8rem;
+        padding-bottom: 1rem;
+        padding-left: 2.5rem;
+        text-align: center;
+    }
+    .about_us .about_us_part2{
+       width: 80%;
+    }
+    .about_us .about_us_part2 h4{
+        font-size: 1.3rem;
+        padding-right: 2rem;
+        text-align: center;
+    }
+    .about_us .about_us_part2 h5{
+        font-size: 1rem;
+        margin-top: 0rem;
+        text-align: center;
+        padding-right: 2rem;
+    }
+    .about_us .about_us_part2 p{
+        font-size: 0.9rem;
+        padding-bottom: 0.8rem;
+        text-align: center;
+        padding-right: 2rem;
+    }
+    .Our_Branches{
+        padding: 12rem 0rem;
+        width: 105%;
+    }
+    .Our_Branches h2{
+        text-align: center;
+    }
+    .Our_Branches p{
+        padding-right: 1rem;
+        font-size:0.95rem;
+        max-width: fit-content;
+        text-align: center;
+    }
+    .Our_Branches .Our_Branches_part2 p{
+        padding-left: 5rem;
+        font-size: 0.95rem;
+        text-align: center;
+    }
+    .contact_us{
+        padding: 6rem 6rem;
+        width: 105%;
+    }
+    .contact_us h2{
+        text-align: center;
+    }
+    .footer{
+        width: 105%;
+    }
+    .footer p{
+        padding-left: 0rem;
+        text-align: center;
+    }
+    .footer_2 p{
+        padding-left: 0rem;
+        text-align: center;
+    }
+    .footer_3 p{
+        padding-left: 0rem;
+        text-align: center;
+    }
+    .footer_4 p{
+        padding-left: 0rem;
+        text-align: center;
+    }
+    .footer_4 a{
+        text-decoration: none;
+    }   
+}
+
+@media screen and (max-width: 320px){
+    .nav{
+        padding: 2rem;
+    }
+    .nav h2{
+        font-size: 26px;
+        padding-left: 0rem;
+    }
+    .back{
+        width: 130%;    
+        height: 100vh;
+        background-size: cover;
+    }
+    .back .overlay{
+        background: #1a1a1a;
+        width: 100%;
+        height: 100%;
+        opacity: 0.8;
+    }
+    #bar{
+        font-size: 2rem;
+        padding-right: 2.1rem;
+    }
+    .mid-punchtag p{
+        font-size: 1.1rem;
+        padding-left: 3.5rem;
+        text-align: center;
+    }
+    .mid-punchtag h2{
+        font-size: 1.9rem;
+       padding-left: 3.5rem;
+       text-align: center;
+    }
+    .about_us{
+        padding: 3rem 0rem;
+        width: 130%;
+    }
+    .about_us .about_us_part1{
+        width: 100%;
+        padding-bottom: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .about_us .about_us_part1 h3{
+        font-size: 1.5rem;
+        padding-right: 1rem;
+        text-align: center;
+    }
+    .about_us .about_us_part1 p{
+        font-size: 0.8rem;
+        padding-bottom: 1rem;
+        padding-left: 0.2rem;
+        text-align: center;
+    }
+    .about_us .about_us_part2{
+       width: 80%;
+       padding-right: 0rem;
+    }
+    .about_us .about_us_part2 h4{
+        font-size: 1.3rem;
+        padding-right: 2rem;
+        text-align: center;
+    }
+    .about_us .about_us_part2 h5{
+        font-size: 1rem;
+        margin-top: 0rem;
+        text-align: center;
+        padding-right: 2rem;
+    }
+    .about_us .about_us_part2 p{
+        font-size: 0.9rem;
+        padding-bottom: 0.8rem;
+        text-align: center;
+        padding-right: 2rem;
+    }
+    .Our_Branches{
+        padding: 12rem 0rem;
+        width: 130%;
+    }
+    .Our_Branches h2{
+        text-align: center;
+    }
+    .Our_Branches p{
+        padding-right: 1rem;
+        font-size:0.95rem;
+        max-width: fit-content;
+        text-align: center;
+    }
+    .Our_Branches .map{
+        padding-right: 1.2rem;
+    }
+    .Our_Branches .Our_Branches_part2 p{
+        padding-left: 5rem;
+        font-size: 0.95rem;
+        text-align: center;
+    }
+    .Our_Branches .Our_Branches_part2 .map2{
+       padding-right: 1.2rem;
+    }
+    .contact_us{
+        padding: 6rem 6rem;
+        width: 130%;
+        align-items: center;
+    }
+    .contact_us h2{
+        text-align: center;
+    }
+    .footer{
+        width: 130%;
+    }
+    .footer p{
+        padding-left: 0rem;
+        text-align: center;
+    }
+    .footer_2 p{
+        padding-left: 0rem;
+        text-align: center;
+    }
+    .footer_3 p{
+        padding-left: 0rem;
+        text-align: center;
+    }
+    .footer_4 p{
+        padding-left: 0rem;
+        text-align: center;
+    }
+    .footer_4 a{
+        text-decoration: none;
+    }   
+}
+
+
+ 
